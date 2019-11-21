@@ -1,0 +1,33 @@
+﻿@page "/"
+
+@using MatBlazor
+
+<MatAppBar Fixed="true">
+    <MatAppBarRow>
+        <MatAppBarSection>
+            <MatIconButton Icon="menu"></MatIconButton>
+            <MatAppBarTitle>TT Conf Tool</MatAppBarTitle>
+        </MatAppBarSection>
+        <MatAppBarSection Align="@MatAppBarSectionAlign.End">
+            <MatIconButton Icon="favorite" Link="https://www.thinktecture.com"></MatIconButton>
+        </MatAppBarSection>
+    </MatAppBarRow>
+</MatAppBar>
+
+<div style="padding-top: 70px;">
+    <h3>Conferences</h3>
+
+    <MatList SingleSelection="true" TwoLine="true">
+        @foreach (var conference in Conferences)
+        {
+            <MatListItem>
+                <MatListItemText>
+                    <MatListItemPrimaryText>
+                        <a href="@conference.ID" target="_blank">@conference.Title</a>
+                    </MatListItemPrimaryText>
+                    <MatListItemSecondaryText>@conference.City</MatListItemSecondaryText>
+                </MatListItemText>
+            </MatListItem>
+        }
+    </MatList>
+</div>

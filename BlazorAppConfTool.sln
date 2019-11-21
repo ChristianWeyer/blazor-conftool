@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29512.175
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppConfTool", "BlazorAppConfTool\BlazorAppConfTool.csproj", "{DFAEB93D-C745-4EB3-8C49-B6A2AC10367A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfToolTests", "ConfToolTests\ConfToolTests.csproj", "{631D5FEC-E9AC-4402-BC34-73E308576AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFAEB93D-C745-4EB3-8C49-B6A2AC10367A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAEB93D-C745-4EB3-8C49-B6A2AC10367A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAEB93D-C745-4EB3-8C49-B6A2AC10367A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAEB93D-C745-4EB3-8C49-B6A2AC10367A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631D5FEC-E9AC-4402-BC34-73E308576AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631D5FEC-E9AC-4402-BC34-73E308576AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631D5FEC-E9AC-4402-BC34-73E308576AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631D5FEC-E9AC-4402-BC34-73E308576AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA22F5BA-1AE2-495C-9EBA-2F82B001A244}
+	EndGlobalSection
+EndGlobal
